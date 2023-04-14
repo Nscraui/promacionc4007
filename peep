@@ -1,0 +1,41 @@
+#1
+X= int(input("Digite el número de la tabla de multiplicar: "))
+
+for i in range(11):
+  print(i, " x ", X, " = ", X * i)
+#2
+jo = "si"
+while jo == "si" or jo == "s":
+    ca = int(input("2.Digite sueldo: "))
+    h = (ca * 0.14) + ca
+    if ca <= 655000:
+        sn = (f"Si valor {h}")
+    else:
+        sn =(f"No valor {ca}")
+    print(sn)
+    jo = (input("otra vez?: "))
+#3
+resp = "si"
+while resp == "si" or resp == "s":
+  l1 = float(input("calificación 1: "))
+  l2 = float(input("calificación 2: "))
+  l3 = float(input("calificación 3: "))
+  l4 = float(input("calificación 4: "))
+  l5 = float(input("calificación 5: "))
+
+  m = round((l1 + l2 + l3)/3, 2)
+  print(f"El promedio es= {m}")
+  resp = input("¿otra vez?")
+#4
+for i in range(101):
+    print(i)
+#5
+num1 = int(input("numero: "))
+
+for i in range(11):
+    print(num1, " x ", i, " = ", i * num1)
+#6
+ei= int(input("cuantos años tiene: "))
+
+for i in range(ei+1):
+    print(i) 
